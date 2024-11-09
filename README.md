@@ -1,4 +1,4 @@
-# ⭐StarLang [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F6F744&random=true&width=435&lines=By+Pavlov+Ivan+Alexeevich)](https://git.io/typing-svg)
+# ⭐ StarLang [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F6F744&random=true&width=435&lines=By+Pavlov+Ivan+Alexeevich)](https://git.io/typing-svg)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![VS Code Insiders](https://img.shields.io/badge/VS%20Code%20Insiders-35b393.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
