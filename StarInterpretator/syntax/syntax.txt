@@ -1,0 +1,74 @@
+- var definition        | var `name` = `expression`;
+                        | var [`types`] = `expression`;
+                        | const var [`types`] = `expression`;
+
+
+
+- type definition       | typedef `typename` = `expression`;
+
+
+
+- namespace definition  | space ("`name`") {
+                        |   instructions;
+                        |   ...
+                        | };
+
+
+
+- get for namespace     | `namespace`::`varname (or object)` ...
+
+
+
+- list expression       | var `name` = [`expression`, ..., ...];
+                        |
+                        |---------------------------------------
+                        | space ("`name`") { 
+                        |   instructions;
+                        |   ... 
+                        | };
+                        | var `name` = [`expression(spaces)`];
+
+
+
+- out operator          | out `expression`;
+                        | out `expression`, `expression`, ...;
+                    
+
+
+- outl operator         | outl `expression`;
+                        | outl `expression`, `expression`, ...;
+
+
+
+- for instructions      | for ~(`iterable expression` ; `var define statement`) {
+                        |     `statement`;
+                        |     `statement`;
+                        |     ...
+                        | };
+                        |
+                        |------------------------------------------------------------------
+                        | for ~(`iterable expression` , `var define statement`) `statement`
+                        |
+                        |------------------------------------------------------------------
+                        |
+                        | for (`var define statement`; `expression of equaling`; `next step statement`) `statement` or {
+                        |     `statement`;
+                        |     `statement`;
+                        |     ...
+                        | };
+                        
+
+                        
+- while instructions    | while (`expression`) `statement` or {
+                        |   `statement`;
+                        |   `statement`;
+                        |   ...
+                        | };
+
+- lambda expression     | var sum = lambda(`arg1`: `type or none` = `base value or none`, ...) : `return type or none` {
+                        |     `expression`
+                        | };
+
+- import instruction    | import '`path`' or [`path1`, `path2`, ...] {as (`to namespace name`)};
+
+- module instruction    | module (`name`) as (`to namespace name`);
